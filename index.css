@@ -1,3 +1,5 @@
+/* GENERAL */
+
 body {
     background: #03161B;
 }
@@ -11,25 +13,10 @@ hr {
     height: 2px;
 }
 
-h1, h2 {
-    font-family: 'Montserrat Alternates', sans-serif;
-    letter-spacing: 0.145em;
-}
 
-h3 {
-    font-family: Poppins;
-    text-align: center;
-    font-size: 58px;
-    letter-spacing: 0.21em;
-}
+/* FIRST SECTION  */
 
-h2 {
-    font-size: 24pt;
-}
-
-h1 {
-    font-size: 92pt;
-}
+/* title */
 
 .intro {
     top: 0;
@@ -46,11 +33,38 @@ h1 {
     top: 0;
 }
 
+h1, h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    letter-spacing: 0.145em;
+}
+
+h2 {
+    font-size: 24pt;
+}
+
+h1 {
+    font-size: 92pt;
+}
+
+
+/* SECOND SECTION */
+
 .notions {
     padding: 13vw;
     padding-top: 7vw;
     padding-bottom: 7vw;
 }
+
+/* title */
+
+h3 {
+    font-family: Poppins;
+    text-align: center;
+    font-size: 58px;
+    letter-spacing: 0.21em;
+}
+
+/* cards */
 
 .card {
     height: 256px;
@@ -73,6 +87,9 @@ h1 {
     box-shadow: 0 0 20px #0087A4;
     background: #001E25;
 }
+
+
+/* FOOTER */
 
 footer p {
     color: #A8DFEB;
