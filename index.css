@@ -1,0 +1,92 @@
+body {
+    background: #03161B;
+}
+
+h1, h2, h3, hr {
+    color: #0087A4;
+}
+
+hr {
+    background: #0087A4;
+    height: 2px;
+}
+
+h1, h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    letter-spacing: 0.145em;
+}
+
+h3 {
+    font-family: Poppins;
+    text-align: center;
+    font-size: 58px;
+    letter-spacing: 0.21em;
+}
+
+h2 {
+    font-size: 24pt;
+}
+
+h1 {
+    font-size: 92pt;
+}
+
+.intro {
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(clint-patterson-dYEuFB8KQJk-unsplash.jpg);
+    top: 0;
+    background-size: cover;
+}
+
+.title {
+    padding-top: 30vh;
+    margin-left: 10vw;
+    top: 0;
+}
+
+.notions {
+    padding: 13vw;
+    padding-top: 7vw;
+    padding-bottom: 7vw;
+}
+
+.card {
+    height: 256px;
+    width: 244px;
+    background: #09242B;
+    border: 2px solid rgba(0, 135, 164, 0.5);
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #A8DFEB;
+    margin-top: 100px;
+}
+
+.card-title {
+    font-size: 25px;
+}
+
+.card:hover {
+    border-color: #00D2FF;
+    transition: 0.3s;
+    box-shadow: 0 0 20px #0087A4;
+    background: #001E25;
+}
+
+footer p {
+    color: #A8DFEB;
+    text-align: center;
+    font-family: Poppins;
+    letter-spacing: 0.21em;
+}
+
+footer {
+    padding-inline: 13vw;
+}
+
+
+
+
+
+
